@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="verPaciente"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="@dimen/tamanioNombreLvPacientes"></TextView>
+
+            <ImageView
+                android:layout_marginLeft="25dp"
+                android:id="@+id/estado"
+                android:layout_width="75dp"
+                android:layout_height="75dp">
+
+            </ImageView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombrePaciente"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/NombreLvPacientes"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:id="@+id/nombrePaciente"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apellidoPaciente"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/NombreLvPacientes"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:id="@+id/apellidoPaciente"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rutPaciente"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/NombreLvPacientes"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:id="@+id/rutPaciente"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_examenPaciente"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/NombreLvPacientes"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:id="@+id/fechaExamen"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="RegistroPaciente"
+        android:text="@string/nuevo_paciente"
+         />
+</LinearLayout>

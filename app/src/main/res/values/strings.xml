@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppRegistroCovid</string>
+    <string name="usuarioHint">Usuario</string>
+    <string name="passwordHint">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnregistrar">Registrar Paciente</string>
+    <string name="nuevo_paciente">Nuevo Paciente</string>
+    <string name="nombrePaciente">Nombre</string>
+    <string name="apellidoPaciente">Apellido</string>
+    <string name="rutPaciente">Rut</string>
+    <string name="fecha_examenPaciente">Fecha examen</string>
+
+    <string-array name="spinner">
+        <item>Atencion al publico</item>
+        <item>Otro</item>
+
+    </string-array>
+</resources>

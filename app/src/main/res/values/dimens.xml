@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="NombreLvPacientes">5dp</dimen>
+    <dimen name="tamanioNombreLvPacientes">20sp</dimen>
+    <dimen name="outputDetalles">25sp</dimen>
+</resources>

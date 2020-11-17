@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroDePaciente"
+    android:orientation="vertical"
+    android:background="@color/fondoRegistro">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO PACIENTE"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nombrePaciente"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/nombrePaciente"
+            android:inputType="text">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/apellidoPaciente"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="@string/apellidoPaciente"
+            android:inputType="text">
+
+        </EditText>
+        <EditText
+            android:id="@+id/rutPaciente"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="@string/rutPaciente"
+            android:inputType="text">
+
+        </EditText>
+
+
+        <Spinner
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/areaTrabajo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="match_parent">
+        </Spinner>
+
+        <Switch
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:onClick="onclick"
+            android:id="@+id/sintomas"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Presenta sintomas de covid?">
+
+        </Switch>
+
+        <EditText
+            android:id="@+id/temperatura"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:hint="Temperatura">
+        </EditText>
+
+        <Switch
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presenta tos?">
+        </Switch>
+
+        <EditText
+            android:id="@+id/presionPaciente"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Presion arterial"
+            android:inputType="number">
+
+        </EditText>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Seleccione Fecha"
+            android:id="@+id/fechaSeleccionada"
+            android:layout_gravity="center"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+        <Button
+            android:onClick="RegistrarPaciente"
+            android:id="@+id/btnRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/btnregistrar" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

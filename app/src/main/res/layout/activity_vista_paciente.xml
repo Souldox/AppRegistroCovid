@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistaPaciente"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:text="Estado"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Nombre"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detalleNombre">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Apellidos"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detalleApellido">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Rut"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detalleRut">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Sintomas"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detalleSintomas">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Tos"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detalleTos">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Presion"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detallePresion">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Area de Trabajo"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detalleArea">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Fecha del Examen"
+            android:textColor="#000"
+            android:textSize="@dimen/tamanioNombreLvPacientes"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/outputDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detalleFecha">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
